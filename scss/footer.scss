@@ -1,0 +1,50 @@
+footer {
+    height: 455px;
+    background-color: #EE4367;
+    text-align: center;
+    align-content: center;
+    padding: 2em;    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    p {
+        line-height: 1.4 ;
+    }
+
+    #subscribe {
+        width: 65%;
+        display: flex;
+        margin: 0 auto;
+        input {
+            padding: 1em;
+            border: none;
+        }
+
+
+        input[type="text"] {
+            background-color: white;
+            opacity: 80%;
+            width: 70%;
+            color: white;
+        }
+
+        input[type="submit"] {
+            background-color: white;
+            color: #EE4367;
+            font-size: 16px;
+            width: 30%;
+        }
+    }
+
+    #social {
+        display: flex;
+        gap: 1em;
+        margin: 0 auto;
+    }
+
+    small {
+        font-size: 12px;
+    }
+}
